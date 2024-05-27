@@ -10,7 +10,7 @@ This project is a single-page application (SPA) that allows users to search for 
 4. [Usage](#usage)
 5. [Code Overview](#code-overview)
 6. [Contributing](#contributing)
-7. [License](#license)
+
 
 
 ## Features
@@ -64,6 +64,3 @@ If you'd like to contribute to this project, please follow these steps:
 5. Push to the branch (`git push origin feature/your-feature-name`).
 6. Create a new Pull Request.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
