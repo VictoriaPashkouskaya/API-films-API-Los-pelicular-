@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    height: 100vh;
+}
+
+#movieH1 {
+    margin-bottom: 20px;
+}
+
+#movies { 
+    margin-top: 50px;
+}
+
+.card-img-top {
+    max-height: 300px;
+    object-fit: cover;
+}

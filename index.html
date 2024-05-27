@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Search</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script> <!-- Подключение Axios -->
+</head>
+<body>
+    <div class="container text-center mt-5">
+        <h1 id="movieH1">Movie Search</h1>
+        <form class="form-inline justify-content-center mb-3">
+            <div class="form-group mx-sm-3 mb-2">
+                <label for="movieInput" class="sr-only">Movie Title</label>
+                <input type="text" id="movieInput" class="form-control" placeholder="Enter movie title">
+            </div>
+            <button id="searchButton" type="button" class="btn btn-primary mb-2">Search</button>
+        </form>
+        <div id="movies" class="row"></div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
